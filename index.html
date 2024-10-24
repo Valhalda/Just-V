@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Font awesome import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Just V</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Rapi</a>
+        <i class="fa-solid fa-bars menu-icon" class="button-menu" onclick="toggleMenu()"></i>
+
+        <nav class="navbar" id="navbar">
+            <a href="#Home" class="active" onclick="scrollToSection('Home')">Home</a>
+            <a href="#Services" onclick="scrollToSection('Services')">Services</a>
+            <a href="#Skills" onclick="scrollToSection('Skills')">Skills</a>
+            <a href="#Education" onclick="scrollToSection('Education')">Education</a>
+            <a href="#Contact" onclick="scrollToSection('Contact')">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="Home">
+        <div class="home-img">
+            <img src="assets/img/porf.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Rapi</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I'm Rapi, I'm a beginner developer who is breeding a career, I also like to learn new knowledge, currently I am a freelancer working on several projects.</p>
+            <div class="social-icons">
+                   <a href="https://www.linkedin.com/in/rafi-muhammad-rizky-6b7853325/"><i class="fa-brands fa-linkedin"></i></a> 
+                   <a href="https://github.com/Valhalda"><i class="fa-brands fa-github"></i></a>
+                   <a href="https://wa.me/6281324333259"><i class="fa-brands fa-whatsapp"></i></a>
+                   <a href="https://www.instagram.com/ventgrm_/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Editor</h4>
+                    <p>creating templates for videos</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Frontend Development</h4>
+                    <p>making website design using laravel and also native</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>UI/UX DESIGN</h4>
+                    <p>website design using figma</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Logo Designer</h4>
+                    <p>make website logo use Adobe illustrator</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>Animator</h4>
+                    <p>make website logo use Adobe After Effect</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <h4>periodic checking of the website</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="Skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="assets/img/figma.svg" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="assets/img/html.svg" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="assets/img/css.svg" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="assets/img/laravel.svg" alt="Laravel">
+                        <span>Laravel</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="assets/img/adobe.svg" alt="Adobe AE">
+                        <span>AE</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="assets/img/Capcut.svg" alt="CapCut">
+                        <span>CapCut</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="education" id="Education">
+        <h2 class="heading">Education Timeline</h2>
+        <div class="education-container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>SMK TI Pembangunan Cimahi</h3>
+                        <p>Major: Information Technology</p>
+                        <p>Graduation Year: 2024</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Key Achievements:</h4>
+                        <ul>
+                            <li>Developed several web applications as part of projects.</li>
+                            <li>Participated in regional programming competitions.</li>
+                            <li>Completed an internship at a local tech company.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="experience">
+        <h2 class="heading">Experience</h2>
+        <div class="experience-container">
+            <div class="slider">
+                <div class="slide">
+                    <div class="experience-card">
+                        <a href="hadiah.html"><img src="assets/img/kado.jpg" alt="Company 1"></a>
+                        <div class="experience-info">
+                            <h3>Project 1</h3>
+                            <p>Give</p>
+                            <p>2024 - august</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="experience-card">
+                        <!-- <img src="assets/img/company3.jpg" alt="Company 3"> -->
+                        <div class="experience-info">
+                            <h3>Coming soon</h3>
+                            <!-- <p>Company Name 3</p>
+                            <p>2019 - 2020</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="experience-card">
+                        <!-- <img src="assets/img/company3.jpg" alt="Company 3"> -->
+                        <div class="experience-info">
+                            <h3>Coming soon</h3>
+                            <!-- <p>Company Name 3</p>
+                            <p>2019 - 2020</p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
